@@ -1,0 +1,92 @@
+  local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("TOMTOM HUB", "BloodTheme")
+local Tab = Window:NewTab("ADMIN")
+
+--ADMIN
+
+local Section = Tab:NewSection("CMD-X")
+Section:NewButton("OPEN", "TOMTOM HUB", function()
+    loadstring(game:HttpGet("dhttps://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
+
+--ANIME FIGHTER
+
+local Tab = Window:NewTab("ANIMEFIGHTER")
+
+local Section = Tab:NewSection("ANIME FIGHTER")
+Section:NewButton("OPEN", "TOMTOM HUB", function()
+   loadstring(game.HttpGet(game,"https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))();
+end)
+
+--JAILBREAK
+
+local Tab = Window:NewTab("JAILBREAK")
+
+local Section = Tab:NewSection("JAILBREAK")
+Section:NewButton("OPEN", "TOMTOM HUB", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
+end)
+
+--DAHOOD
+
+local Tab = Window:NewTab("DAHOOD")
+
+local Section = Tab:NewSection("DAHOOD")
+Section:NewButton("OPEN", "TOMTOM HUB", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
+end)
+
+--PHANTOM FORCES
+
+local Tab = Window:NewTab("PHANTOM FORCES")
+
+local Section = Tab:NewSection("PHANTOM FORCES")
+Section:NewButton("OPEN", "TOMTOM HUB", function()
+loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
+
+--BLACK HAWK
+
+local Tab = Window:NewTab("BLACK HAWK")
+
+local Section = Tab:NewSection("BLLACK HAWK")
+Section:NewButton("OPEN", "TOMTOM HUB", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+--Right 2 Fight
+
+local Tab = Window:NewTab("Right 2 Fight")
+
+local Section = Tab:NewSection("Right 2 Fight")
+Section:NewButton("OPEN", "TOMTOM HUB", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/Right-2-Fight-Killaura.lua"))() 
+end)
+
+--ZO
+
+local Tab = Window:NewTab("ZO")
+
+local Section = Tab:NewSection("ZO")
+Section:NewButton("OPEN", "TOMTOM HUB", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aidez/ZO/main/FASTER%20HITS%20OBFUSCATED'),true))() 
+end)
+
+--SPECTER
+
+local Tab = Window:NewTab("SPECTERZO")
+
+local Section = Tab:NewSection("SPECTER")
+Section:NewButton("OPEN", "TOMTOM HUB", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+--COUNTER BLOX
+
+local Tab = Window:NewTab("COUNTER BLOX")
+
+local Section = Tab:NewSection("COUNTER BLOX")
+Section:NewButton("OPEN", "TOMTOM HUB", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/QJ0ym0UG", true))()
+end)
